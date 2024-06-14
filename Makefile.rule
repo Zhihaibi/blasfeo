@@ -102,7 +102,7 @@ CURRENT_DIR := $(patsubst %/,%,$(dir $(MAKEFILE_PATH)))
 #
 #
 # TARGET = X64_INTEL_SKYLAKE_X
-TARGET = X64_INTEL_HASWELL
+# TARGET = X64_INTEL_HASWELL
 # TARGET = X64_INTEL_SANDY_BRIDGE
 # TARGET = X64_INTEL_CORE
 #
@@ -121,7 +121,7 @@ TARGET = X64_INTEL_HASWELL
 # TARGET = ARMV7A_ARM_CORTEX_A9
 # TARGET = ARMV7A_ARM_CORTEX_A7
 #
-# TARGET = GENERIC
+TARGET = GENERIC
 
 # Select back-end linear lagebra version (LA) to implement BLASFEO API:
 # HIGH_PERFORMANCE : target-tailored; performance-optimized for cache resident matrices; panel-major matrix format
@@ -206,7 +206,7 @@ endif
 #
 # Select operating system (manual selection)
 #
-# OS = LINUX
+OS = LINUX
 # OS = MAC
 # OS = WINDOWS
 
